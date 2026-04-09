@@ -1,0 +1,6 @@
+flask==3.1.1
+gunicorn==23.0.0
+mediapipe==0.10.21
+numpy>=1.26.0,<2.0.0
+Pillow>=10.0.0
+requests>=2.31.0
