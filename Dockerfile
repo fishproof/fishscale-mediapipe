@@ -16,9 +16,10 @@ WORKDIR /app
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Copy application code and model
+# Copy application code and models
 COPY app.py .
 COPY face_landmarker.task .
+COPY hand_landmarker.task .
 
 # Railway sets PORT env var automatically
 ENV PORT=8080
