@@ -136,6 +136,10 @@ HAND_MEASUREMENTS = {
     "palm_width": (5, 17),            # INDEX_MCP → PINKY_MCP
     "hand_span": (4, 20),             # THUMB_TIP → PINKY_TIP
     "wrist_to_middle_tip": (0, 12),   # WRIST → MIDDLE_TIP (full hand length)
+    # Individual knuckle-to-knuckle segments (for partial palm visibility)
+    "index_to_middle_mcp": (5, 9),    # INDEX_MCP → MIDDLE_MCP
+    "middle_to_ring_mcp": (9, 13),    # MIDDLE_MCP → RING_MCP
+    "ring_to_pinky_mcp": (13, 17),    # RING_MCP → PINKY_MCP
 }
 
 # ─── Multi-scale crop strategies (face) ──────────────────────────────────
